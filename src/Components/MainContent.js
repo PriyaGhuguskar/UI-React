@@ -6,6 +6,7 @@ import Overview from './UserOverview';
 import Conversion from './Conversion';
 import Overviewsec from './Overviewsec';
 import TransactionCompo from './TransactionCompo';
+import WalletCompo from './Pages/WalletCompo';
 
 
 const MainContent = () => {
@@ -74,7 +75,8 @@ const MainContent = () => {
 
             <Conversion />
 
-
+            {/* Widraw */}
+            <WalletCompo />
             {/* <Statistics /> */}
 
 
