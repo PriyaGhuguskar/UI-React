@@ -58,7 +58,10 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    width: 88px;
+    width: 100px;
+    height: 100px;
+
+
     margin-top: 30px;
 
 }
@@ -270,4 +273,22 @@
     border-radius: 100px;
     color: white;
     background: var(--4, linear-gradient(185deg, #FD749B 0%, #281AC8 100%));
+}
+
+.image-overlap {
+    position: absolute;
+}
+
+.text-overlap {
+    position: absolute;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 49.5px;
+    background: var(--3, linear-gradient(144deg, #FC58B3 0%, #FEAE68 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
