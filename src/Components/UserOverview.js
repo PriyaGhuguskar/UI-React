@@ -23,7 +23,7 @@ const Overview = () => {
                     </svg>
                 </Col>
             </Row>
-            <Row style={{ width: '965', height: '65', margin: '20px auto', marginBottom: "30px" }}>
+            <Row style={{ width: '965', height: '65', margin: '20px auto', marginBottom: "30px", display: 'flex', alignItems: 'center' }}>
                 <Col className='col-md-3 User-col'>Account Status</Col>
                 <Col className='col-md-3 User-col'>User Name</Col>
                 <Col className='col-md-4 User-col'>Email</Col>
@@ -31,7 +31,7 @@ const Overview = () => {
 
             </Row>
             {/* user1 */}
-            <Row style={{ width: '965', height: '65', margin: '20px auto', display: 'flex', alignItems: 'center', justifyContent: 'space-around' }}>
+            <Row style={{ width: '965', height: '65', margin: '20px auto', display: 'flex', alignItems: 'center', justifyContent: '' }}>
                 <Col className='col-md-3'><div className='user-act'>Active</div></Col>
                 <Col className='col-md-3 usertext' style={{ display: 'flex', alignItems: 'center' }}>
                     <img src={user1} alt='profile' style={{ width: "40px", height: "36px", borderRadius: "100px" }} />
