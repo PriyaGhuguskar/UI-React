@@ -5,6 +5,7 @@ import Overview from './UserOverview';
 // import Statistics from './Statistics';
 import Conversion from './Conversion';
 import Overviewsec from './Overviewsec';
+import TransactionCompo from './TransactionCompo';
 
 
 const MainContent = () => {
@@ -79,6 +80,8 @@ const MainContent = () => {
 
 
             <Overview />
+
+            <TransactionCompo />
 
 
         </>

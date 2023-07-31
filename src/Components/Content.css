@@ -165,11 +165,12 @@
 
 }
 
-.Overview-status {
+.Overview-status,
+.Transaction-Box {
     border-radius: 10px;
     border: 2px solid #F0F0F0;
     background: #FFF;
-    height: 550px;
+    height: 540px;
     width: 1010px;
     padding: 25px;
     margin: 30px 0px;
@@ -185,6 +186,8 @@
     font-weight: 700;
     line-height: 163.418%;
     margin-top: 25px;
+    padding-right: 5px;
+    text-align: center;
 }
 
 .acc-status {
