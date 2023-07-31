@@ -2,11 +2,11 @@ import React from 'react'
 import './Content.css'
 import { Row, Col } from 'react-bootstrap';
 import Overview from './UserOverview';
-// import Statistics from './Statistics';
 import Conversion from './Conversion';
 import Overviewsec from './Overviewsec';
 import TransactionCompo from './TransactionCompo';
 import WalletCompo from './Pages/WalletCompo';
+import Statistics from './Statistics';
 
 
 const MainContent = () => {
@@ -79,7 +79,7 @@ const MainContent = () => {
             <WalletCompo />
             {/* <Statistics /> */}
 
-
+            <Statistics />
 
             <Overview />
 

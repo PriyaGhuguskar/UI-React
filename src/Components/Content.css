@@ -292,3 +292,120 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+.Stat-text {
+    width: 17px;
+    height: 22px;
+    color: #858585;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    margin: 10px;
+}
+
+.Stat-bar {
+    width: 16px;
+    border-radius: 55px 55px 0px 0px;
+    background: var(--4, linear-gradient(185deg, #FD749B 0%, #281AC8 100%));
+}
+
+.Stat-bar-text {
+    width: 54px;
+    height: 17px;
+    color: #858585;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    margin: 10px;
+}
+
+.average-scare-div {
+    width: 153px;
+    height: 86px;
+    border-radius: 4px;
+    background: #F3DBF9;
+    position: absolute;
+    top: 0px;
+    left: 39%;
+    display: flex;
+    flex-direction: column;
+}
+
+.score-text {
+    color: #858585;
+    font-family: Poppins;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    opacity: 0.7;
+    margin: 8px auto;
+}
+
+.score-num {
+    color: #B327F5;
+    font-family: Poppins;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0px auto;
+
+    letter-spacing: 0.3px;
+}
+
+.linear-bar {
+    width: 130px;
+    height: 5px;
+    border-radius: 2.5px;
+    background: #FFF;
+    margin: 6px auto;
+
+}
+
+.linear-bar div {
+    width: 90px;
+    height: 5px;
+    border-radius: 2.5px;
+    background: var(--4, linear-gradient(185deg, #FD749B 0%, #281AC8 100%));
+}
+
+.range-wrap {
+    position: absolute;
+    top: 22%;
+    left: 420px;
+    width: 59px;
+    height: 59px;
+    border-radius: 50%;
+    z-index: 0;
+    background: var(--4, linear-gradient(185deg, #FD749B 0%, #281AC8 100%));
+    opacity: 0.20000000298023224;
+}
+
+.inner-div {
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    top: 25%;
+    left: 432px;
+    background: var(--4, linear-gradient(185deg, #FD749B 0%, #281AC8 100%));
+    opacity: 0.20000000298023224;
+    border-radius: 50%;
+    z-index: 0.2;
+}
+
+.inner-two {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 27%;
+    left: 438px;
+    background: var(--4, linear-gradient(185deg, #FD749B 0%, #281AC8 100%));
+    opacity: 0.20000000298023224;
+    border-radius: 50%;
+    z-index: 0.2;
+}

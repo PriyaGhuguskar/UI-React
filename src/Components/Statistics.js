@@ -17,6 +17,121 @@ const Statistics = () => {
                     </svg>
                 </Col>
             </Row>
+            <Row className='Overview' style={{ margin: "35px 30px" }}>
+                My Own Report
+            </Row>
+            <Row style={{ height: "400px", display: 'flex', justifyContent: 'space-evenly', alignItems: 'flex-end', position: 'relative' }}>
+                <Col style={{ marginBottom: "50px" }}>
+                    <div style={{ display: 'flex', flexDirection: 'column' }}>
+                        <div className='Stat-text'>70</div>
+                        <div className='Stat-text'>60</div>
+                        <div className='Stat-text'>50</div>
+                        <div className='Stat-text'>40</div>
+                        <div className='Stat-text'>30</div>
+                        <div className='Stat-text'>20</div>
+                        <div className='Stat-text'>10</div>
+
+                    </div>
+                </Col>
+
+                <Col>
+                    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+                        <div className='Stat-bar' style={{ height: '242px' }}></div>
+                        <div className='Stat-bar-text'>Amazon</div>
+                    </div>
+                </Col>
+
+
+
+                <Col>
+                    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+                        <div className='Stat-bar' style={{ height: '282px' }}></div>
+                        <div className='Stat-bar-text'>Google</div>
+                    </div>
+                </Col>
+
+                <Col>
+                    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+                        <div className='Stat-bar' style={{ height: '122px' }}></div>
+                        <div className='Stat-bar-text'>iTunes</div>
+                    </div>
+                </Col>
+
+                <Col>
+                    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+                        <div className='Stat-bar' style={{ height: '212px' }}></div>
+                        <div className='Stat-bar-text'>Payoneer</div>
+                    </div>
+                </Col>
+
+                <Col>
+                    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+                        <div className='Stat-bar' style={{ height: '252px', zIndex: '5' }}></div>
+                        <div className='Stat-bar-text'>Bitcoin</div>
+                    </div>
+                </Col>
+
+                <Col>
+                    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+                        <div className='Stat-bar' style={{ height: '221px' }}></div>
+                        <div className='Stat-bar-text'>Etherem</div>
+                    </div>
+                </Col>
+
+                <Col>
+                    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+                        <div className='Stat-bar' style={{ height: '152px' }}></div>
+                        <div className='Stat-bar-text'>Tecno</div>
+                    </div>
+                </Col>
+
+                <Col>
+                    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+                        <div className='Stat-bar' style={{ height: '242px' }}></div>
+                        <div className='Stat-bar-text'>Paypal</div>
+                    </div>
+                </Col>
+
+                <Col>
+                    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+                        <div className='Stat-bar' style={{ height: '282px' }}></div>
+                        <div className='Stat-bar-text'>Aliexpress
+                        </div>
+                    </div>
+                </Col>
+
+                <Col>
+                    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+                        <div className='Stat-bar' style={{ height: '292px' }}></div>
+                        <div className='Stat-bar-text'>Konga</div>
+                    </div>
+                </Col>
+                <Col>
+                    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+                        <div className='Stat-bar' style={{ height: '274px' }}></div>
+                        <div className='Stat-bar-text'>Jumia</div>
+                    </div>
+                </Col>
+                <div style={{ marginBottom: "34px", position: 'absolute', left: '50px' }}>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="4" height="364" viewBox="0 0 4 364" fill="none">
+                        <path opacity="0.60681" d="M1.59166 1.5977V361.643" stroke="#B0BEC5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+                <div className='average-scare-div'>
+
+                    <div className='score-text'>Avarage score</div>
+                    <div className='score-num'>146/217</div>
+                    <div className='linear-bar'>
+                        <div></div>
+                    </div>
+                </div>
+                <div className='range-wrap'>
+                </div>
+                <div className='inner-div'></div>
+                <div className='inner-two'></div>
+
+            </Row>
+
         </Container>
     )
 }
