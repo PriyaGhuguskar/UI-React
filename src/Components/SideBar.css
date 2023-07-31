@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,300;0,700;1,800&family=Poppins:wght@200;300;500;600&display=swap');
+
+.SideBar-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.list-selected-wrapper {
+    width: 273px;
+    height: 54px;
+    background-image: var(--4, linear-gradient(185deg, #FD749B 0%, #281AC8 100%));
+    display: flex;
+    align-items: center;
+    border-radius: 0px 30px 30px 0;
+    justify-content: space-evenly;
+}
+
+.list-selected-text {
+    width: 99.033px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.list-wrapper {
+    width: 273px;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    margin-top: 14px;
+
+    /* border-radius: 0px 30px 30px 0; */
+    justify-content: space-evenly;
+}
+
+.list-text {
+    width: 99.033px;
+    color: #858585;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.side-text {
+    color: #858585;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    margin-top: 30px;
+}
